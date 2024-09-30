@@ -1,0 +1,389 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3174804725656261628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3174804725656261618}
+  - component: {fileID: 3174804725656261619}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3174804725656261618
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3174804725656261628}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0.45000005}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3174804725656261619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3174804725656261628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cf27aa01db93744e9c2d0d68a2c311b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sounds:
+  - Name: StasisHit
+    Clip: {fileID: 8300000, guid: 195852daa16fcfb458156bec978d4f5d, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: StasisRelease0
+    Clip: {fileID: 8300000, guid: 3d58081e852e20045a651a99c44c5511, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: StasisRelease1
+    Clip: {fileID: 8300000, guid: 2ae0bd7903356744f9b749d815fb6963, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: StasisRelease2
+    Clip: {fileID: 8300000, guid: 2a271b1e8b2f5d042b932ad2bcfe72d3, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: StasisFail
+    Clip: {fileID: 8300000, guid: f78e2c2fd4c40c544b7d3532274cfc4c, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: PlayerFootsteps0
+    Clip: {fileID: 8300000, guid: b64831c053d1a394d9722fdc14d6f8f9, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: PlayerFootsteps1
+    Clip: {fileID: 8300000, guid: 92a41104f311c454796d5798b95bb24b, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: PlayerFootsteps2
+    Clip: {fileID: 8300000, guid: 73a8643846699b44bb8d32a3bb494809, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: PlayerFootsteps3
+    Clip: {fileID: 8300000, guid: fb307924f72b47a4dbd9e0a0e676f477, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: PlayerWoosh0
+    Clip: {fileID: 8300000, guid: d4dd800d136f5004e809b7bdc2a463f2, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: PlayerWoosh1
+    Clip: {fileID: 8300000, guid: 45b04f8efd8a4b342b66da73488dbd78, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: PlayerWoosh2
+    Clip: {fileID: 8300000, guid: 8274967f5b4bac14cbcd372bbd836619, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: PlayerWoosh3
+    Clip: {fileID: 8300000, guid: 9415fa01ad03b0d43842adf84355bb7d, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: PlayerJump0
+    Clip: {fileID: 8300000, guid: 7b7ce1beef7ecd441a6a1edb6d828143, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: PlayerJump1
+    Clip: {fileID: 8300000, guid: 61a837006d68f074badc5e92cebfdf57, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: PlayerJump2
+    Clip: {fileID: 8300000, guid: 79ba83d69def56f4988b35825633b707, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: PlayerJumpLong
+    Clip: {fileID: 8300000, guid: b5e3eec0efea45e48b056b17c304f01c, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: ConveyorActive
+    Clip: {fileID: 8300000, guid: bb03bb835844fdb4bb38d1ad72c993a8, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Amb_boss
+    Clip: {fileID: 8300000, guid: b9929730a390bc94991b5feaecc975b7, type: 3}
+    Volume: 0.2
+    Pitch: 1
+    Loop: 1
+    Source: {fileID: 0}
+  - Name: Amb_level
+    Clip: {fileID: 8300000, guid: e45df2a9a0147c14e979a00fae616c4b, type: 3}
+    Volume: 0.1
+    Pitch: 1
+    Loop: 1
+    Source: {fileID: 0}
+  - Name: Amb_tuto
+    Clip: {fileID: 8300000, guid: 1175849f6061db243aaf90ea86834fa7, type: 3}
+    Volume: 0.2
+    Pitch: 1
+    Loop: 1
+    Source: {fileID: 0}
+  - Name: Ennemy_death0
+    Clip: {fileID: 8300000, guid: 0a16d363f4d0561498d328841c67105e, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Ennemy_death1
+    Clip: {fileID: 8300000, guid: 8b5dadad2b963cf418fdafc7a0dcd8ac, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Ennemy_death2
+    Clip: {fileID: 8300000, guid: c0537f15989259547a23c7b969204b6c, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Ennemy_detect_player
+    Clip: {fileID: 8300000, guid: 3991430675aca6c4fb55e7e43796abbb, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: ennemy_shoot_laser0
+    Clip: {fileID: 8300000, guid: a7e04ac640afea54b80f0db2b97349e0, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: ennemy_shoot_laser1
+    Clip: {fileID: 8300000, guid: 823608e25bc06c146ba40ff6ee55f18e, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: ennemy_shoot_laser2
+    Clip: {fileID: 8300000, guid: 15f5785d86509d74e93fb7ea057e0bff, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: ennemy_shoot_normal0
+    Clip: {fileID: 8300000, guid: 1917947a52f6c8a4085c98443015f416, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: ennemy_shoot_normal1
+    Clip: {fileID: 8300000, guid: fc37cca7adbd9eb4eb8737f0aa63e866, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: ennemy_shoot_normal2
+    Clip: {fileID: 8300000, guid: fc4544298ba3dc2449edd2b751f1bf43, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Door_close
+    Clip: {fileID: 8300000, guid: 939271f9ea361764ba95e5fd7dbf01e1, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 1
+    Source: {fileID: 0}
+  - Name: Door_open
+    Clip: {fileID: 8300000, guid: a63b6f14f1459474f958abfef3296023, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 1
+    Source: {fileID: 0}
+  - Name: Mirror_reflect
+    Clip: {fileID: 8300000, guid: 62e62766fa457db45bab707d74d51b3b, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Pickup_collectible
+    Clip: {fileID: 8300000, guid: 07c8d5f2266cf694982118335bf78f3a, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Plateforme_in
+    Clip: {fileID: 8300000, guid: da5b22e281e118b4ea623e9d8402c890, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Plateforme_out
+    Clip: {fileID: 8300000, guid: 3b01a85b75ef2b14c9b709151e6370b0, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Slime_rebound
+    Clip: {fileID: 8300000, guid: df6c6b757e8680c4d817db9772a19248, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Click_hover
+    Clip: {fileID: 8300000, guid: ba4059fdf169b8b4ea4083a8f6f40dc5, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Click_level
+    Clip: {fileID: 8300000, guid: 5a6e9d95b3821fa4e8d91a531771a20c, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Click_menu
+    Clip: {fileID: 8300000, guid: cf9703c125147154db241b63f2bed3c6, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Player_detect_collectible
+    Clip: {fileID: 8300000, guid: 62d4367d29789524d96920b1626a9c68, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Player_death
+    Clip: {fileID: 8300000, guid: 1713f007b476a6b46bc91c077396dcd3, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Player_damage2
+    Clip: {fileID: 8300000, guid: 3b1e51ba6cb0e84489b79763774db7a2, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Player_damage1
+    Clip: {fileID: 8300000, guid: 85e38e3b07f66dc48832174f11d15cd8, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Player_damage0
+    Clip: {fileID: 8300000, guid: dfce0ab00cf9a644d947fe87439c19d4, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: player_attack_cheese_hammer_nostase0
+    Clip: {fileID: 8300000, guid: bd554a1a5b8d0cc4dab4f6f4c561c395, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: player_attack_cheese_hammer_nostase1
+    Clip: {fileID: 8300000, guid: b51e9a60aefaff04987bebc4f7dadab2, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: player_attack_cheese_hammer_nostase2
+    Clip: {fileID: 8300000, guid: 4c081f583377cc643b9f977ee0a79087, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: player_attack_cheese_hammer_nostase3
+    Clip: {fileID: 8300000, guid: 87790e88bb47f884fbfb69419239b485, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: player_attack_cheese_hammer_stase0
+    Clip: {fileID: 8300000, guid: f4e87ebb7b8bd354eabe10d8a93770fc, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: player_attack_cheese_hammer_stase1
+    Clip: {fileID: 8300000, guid: 10bed3ddd198a3043a38889095f25b95, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: player_attack_cheese_hammer_stase2
+    Clip: {fileID: 8300000, guid: 3565aea3f8cdb974bba76ea44b9651e3, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Level1Music
+    Clip: {fileID: 8300000, guid: 010d18a4e61006a4e97180f2df7d0b82, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 1
+    Source: {fileID: 0}
+  - Name: Level3Music
+    Clip: {fileID: 8300000, guid: aad559a7bf1017e4aa0adad00399881b, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 1
+    Source: {fileID: 0}
+  - Name: Level4Music
+    Clip: {fileID: 8300000, guid: ebaac6c5f95e85149a4778e435a9377f, type: 3}
+    Volume: 1.2
+    Pitch: 1
+    Loop: 1
+    Source: {fileID: 0}
+  - Name: Level5Music
+    Clip: {fileID: 8300000, guid: 8a91c376afd0ba245b30e3beb209b41b, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 1
+    Source: {fileID: 0}

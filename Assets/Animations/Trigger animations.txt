@@ -1,0 +1,25 @@
+Slime_Bounce : Animation du slime qui s'affaisse et remonte
+
+Get_Cheese : On ramasse le fromage 
+
+
+Hit : Tape avec le marteau
+
+Shoot : Tir
+
+Jump:  Saute
+
+Run : Cours
+
+Death : Mort du joueur
+
+ShootEvil : Tir de l'ennemi
+Lost_Hat : L'ennemi perd son chapeau
+
+
+
+Marche : Tapis roulant en marche
+Arrêt : Tapis roulant arrêt
+
+Ennemy_Death : Mort de l'ennemy
+Detect_Player : L'ennemi détecte le joueur
